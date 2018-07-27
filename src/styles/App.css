@@ -1,3 +1,10 @@
 /* Base Application Styles */
 body {
 }
+.noPadding{
+    padding:0;
+}
+.navStyle{ border-radius:0; margin-bottom:0; }
+.content-wrapper{
+    background:#777;
+}
