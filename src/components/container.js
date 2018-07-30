@@ -7,14 +7,14 @@ export class Content extends React.Component{
         return(
             <Grid fluid className="content-wrapper">
                 <Row className="show-grid">
-                    <Col xs={12} md={4}>
-                        ABC
+                    <Col xs={12} md={4} className="content-list">
+                        <div className="content-box">ABC</div>
                     </Col>
-                    <Col xs={12} md={4}>
-                        XYZ
+                    <Col xs={12} md={4} className="content-list">
+                        <div className="content-box">ABC</div>
                     </Col>
-                    <Col xs={12} md={4}>
-                        PQR
+                    <Col xs={12} md={4} className="content-list">
+                        <div className="content-box">ABC</div>
                     </Col>
                 </Row>
             </Grid>

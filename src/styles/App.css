@@ -6,5 +6,24 @@ body {
 }
 .navStyle{ border-radius:0; margin-bottom:0; }
 .content-wrapper{
-    background:#777;
+    background:#f5f5f5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.content-wrapper .content-box{
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+    background: #ccc;
+    padding:10px 15px;
+    text-align: center;
+}
+
+@media(max-width:990px){
+    .content-list{
+        margin-bottom:10px;
+    }
+    .content-list:last-child{
+        margin-bottom:0;
+    }
 }
