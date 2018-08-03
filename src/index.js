@@ -11,15 +11,15 @@ import {Content} from './components/container';
 
 class AppComponent extends React.Component {  
     render() {
-    //   var myList = [
-    //     {id:"1",name:"List1",desc:"Desc1"},
-    //     {id:"2",name:"List2",desc:"Desc1"},
-    //     {id:"3",name:"List3",desc:"Desc1"}
-    //   ]
+      var demoData=[
+        { section:"Section1",data:"SEction 1 Data"},
+        { section:"Section2",data:"SEction 2 Data"},
+        { section:"Section3",data:"SEction 3 Data"}
+      ]
       return (
         <Grid fluid className="noPadding">
-          <Header/>
-          <Content/>
+          <Header><a href="#home">Dashbosrd</a></Header>
+          <Content demoData={demoData}/>
         </Grid>
       );
     }

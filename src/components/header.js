@@ -6,8 +6,9 @@ export class Header extends React.Component{
         return(
             <Navbar inverse className="navStyle">
                 <Navbar.Header>
+                    {/* props.children render any html which has passed externally from parent component */}
                     <Navbar.Brand>
-                        <a href="#home">Dashbosrd</a>
+                        {this.props.children} 
                     </Navbar.Brand>
                 </Navbar.Header>
                 <Nav>
